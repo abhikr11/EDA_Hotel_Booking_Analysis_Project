@@ -1,6 +1,16 @@
 # EDA On Hotel Booking Analysis
 Exploratory Data Analysis of hotel booking dataset using Python.
-<u>**Dataset Description**</u>
+
+## Business Context
+
+This data set contains booking information for a city hotel and a resort hotel, and includes information such as when the booking was made, length of stay, the number of adults, children, and/or babies, and the number of available parking spaces, among other things.
+This hotel booking dataset can help to explore and analyse general trends in hotel bookings.
+
+## <u>Dataset Description</u>
+
+- The given dataset has booking information of City and Resort Hotels.
+- It has total 119390 rows and 32 columns.
+- The description of Data Dictionary are as follows:-
 <table>
   <tr>
     <th>Field </th>
@@ -8,7 +18,7 @@ Exploratory Data Analysis of hotel booking dataset using Python.
   </tr>
   <tr>
     <td>Hotel</td>
-    <td>Type of hotel (H1 for Resort & H2 for City)</td>
+    <td>Type of hotel (City Hotel and Resort Hotel)</td>
   </tr>
   <tr>
     <td>is_cancelled</td>
@@ -134,3 +144,5 @@ Exploratory Data Analysis of hotel booking dataset using Python.
     <td>Date of specific reservation status</td>
   </tr>
   </table>
+  
+## Data Cleaning and Feature Engineering
